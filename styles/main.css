@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@1,400;1,700&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -25,11 +29,7 @@ body {
   -ms-grid-rows: auto 1fr auto;
       grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-}
-
-body,
-body * {
-  font-family: 'Lora', serif;
+  font-family: 'PT Serif', serif;
 }
 
 h1 {
@@ -322,29 +322,53 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 1rem;
 }
 
-footer .redes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-}
-
-footer address {
-  text-align: end;
+@media (max-width: 550px) {
+  footer .footer_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-left: 1rem;
+  }
+  footer .footer_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  footer .footer_iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    gap: 0.5rem;
+  }
+  footer .footer_iconos img {
+    width: 15px;
+  }
+  footer address {
+    display: none;
+  }
+  footer img {
+    width: 35px;
+  }
 }
 
 header {
@@ -552,6 +576,7 @@ nav .menu > li:hover .submenu {
 
 .hero_content h1 {
   font-size: clamp(3rem, 5vw, 6rem);
+  font-family: 'Lora', serif;
 }
 
 .hero video {

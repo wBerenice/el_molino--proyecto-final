@@ -22,13 +22,17 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+        // font-family: 'Lora', serif;
+        font-family: 'PT Serif', serif;
+
 }
     
 
-body,
-body *{
-    font-family: 'Lora', serif;
-}
+// body,
+// body *{
+//     font-family: 'Lora', serif;
+// }
+
 
 
 h1 {
