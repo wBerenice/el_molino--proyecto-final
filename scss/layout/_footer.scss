@@ -1,0 +1,19 @@
+    
+footer {
+    background-color: $clr-footer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+    footer .redes {
+        display: flex;
+        flex-flow: column;
+    }
+
+footer address {
+    text-align: end;
+}
+

@@ -1,0 +1,72 @@
+
+
+section.contacto {
+    background: $clr-light;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    padding: 2em;
+    margin: 0 auto;
+    
+    border-radius: 1em;
+}
+
+        section.contacto .contacto_txt {
+            flex-grow: 0;
+            flex-basis: 400px;
+            
+            display: flex;
+            flex-flow: column;
+            gap: 0.5rem;
+            text-align: justify;
+        }
+
+        section.contacto .contacto_txt a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+
+
+.underline {
+    text-decoration: underline;
+    
+}
+
+form.contacto {
+    flex: 1;
+    flex-basis: 400px;
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+
+    .input_group {
+        display: flex;
+        flex-flow: column;
+        gap: 0.25rem;
+            
+        input,
+        textarea,
+        select {
+            resize: none;
+        }
+        textarea {
+            min-height: 100px;
+        }
+    }      
+}
+
+@media  (max-width: 550px) {
+
+    section.contacto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+
+
+}
+
