@@ -65,9 +65,33 @@ h3 {
 $clases: local, contacto, acerca; 
 @each $clase in $clases {
     main.#{$clase}  {
-        // background: url("/images/bread-bottom.jpg") no-repeat center/cover;
-        // background: url(/images/bread-bottom.jpg) no-repeat center/cover;
-        background-image: url(images/bread-bottom.jpg);
+
+        // OPCION 1
+        background: url("/images/bread-bottom.jpg") no-repeat center/cover;
+
+
+
+        // No fucionan ni siquiera en VSC
+        // background: url("./images/bread-bottom.jpg") no-repeat center/cover;
+        // background: url("images/bread-bottom.jpg") no-repeat center/cover;
+
+
+
+        // OPCION 2
+        // background-image: url(/images/bread-bottom.jpg);
+
+
+
+        // OPCION 3
+        // background-image: url("/images/bread-bottom.jpg");
+
+
+        
+        
+        
+        
+
+        
         
         display: grid;
         place-content: center;
