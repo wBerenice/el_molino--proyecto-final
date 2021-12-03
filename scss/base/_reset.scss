@@ -67,7 +67,7 @@ $clases: local, contacto, acerca;
     main.#{$clase}  {
         // background: url("/images/bread-bottom.jpg") no-repeat center/cover;
         // background: url(/images/bread-bottom.jpg) no-repeat center/cover;
-        background-image: url(/images/bread-bottom.jpg);
+        background-image: url(images/bread-bottom.jpg);
         
         display: grid;
         place-content: center;
