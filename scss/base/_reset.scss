@@ -65,7 +65,7 @@ h3 {
 $clases: local, contacto, acerca; 
 @each $clase in $clases {
     main.#{$clase}  {
-        background: url(images/bread-bottom.jpg) no-repeat center/cover;
+        background: url(/images/bread-bottom.jpg) no-repeat center/cover;
         display: grid;
         place-content: center;
         padding: 2rem;
