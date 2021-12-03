@@ -152,7 +152,6 @@ section.acerca .acerca_txt {
 }
 
 .card {
-  min-width: 450px;
   margin: 1rem;
   border-radius: 1rem;
   overflow: hidden;
