@@ -318,7 +318,7 @@ form.contacto .input_group textarea {
 }
 
 footer {
-  background-color: #DBCC86;
+  background-color: #D67D34;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,9 +331,10 @@ footer {
       -ms-flex-align: end;
           align-items: flex-end;
   padding: 1rem;
+  color: #DFE0DF;
 }
 
-footer .redes {
+.redes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
