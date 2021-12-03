@@ -1,20 +1,39 @@
     
 footer {
     background-color: $clr-footer;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 1rem;
     color: #DFE0DF;
-}
 
-    .redes {
-        display: flex;
-        flex-flow: column;
+    address {
+        text-align: end;
+    }
+    
+
+
+    .footer_logo {
+        text-align: center;
+        font-size: clamp(1.3rem, 2.5vw, 2rem);
+        padding: 1.5rem;
+        font-weight: bold;
     }
 
-footer address {
-    text-align: end;
-}
+    .redes_horarios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: clamp(1rem, 1.2vw, 1.5rem);
+        padding-bottom: 2rem;
+        
 
+
+        .redes {
+            display: flex;
+            flex-flow: column;
+        }
+    }
+
+
+    .copyright {
+        opacity: 0.70;
+    }
+    
+}

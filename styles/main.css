@@ -319,22 +319,34 @@ form.contacto .input_group textarea {
 
 footer {
   background-color: #D67D34;
+  color: #DFE0DF;
+}
+
+footer address {
+  text-align: end;
+}
+
+footer .footer_logo {
+  text-align: center;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  padding: 1.5rem;
+  font-weight: bold;
+}
+
+footer .redes_horarios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding: 1rem;
-  color: #DFE0DF;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  padding-bottom: 2rem;
 }
 
-.redes {
+footer .redes_horarios .redes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,8 +356,8 @@ footer {
           flex-flow: column;
 }
 
-footer address {
-  text-align: end;
+footer .copyright {
+  opacity: 0.70;
 }
 
 header {
