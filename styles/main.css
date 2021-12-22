@@ -60,7 +60,7 @@ h3 {
 }
 
 main.local {
-  background: url(/images/bread-bottom.jpg) no-repeat center/cover;
+  background: url(images/bread-bottom.jpg) no-repeat center/cover;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -68,7 +68,7 @@ main.local {
 }
 
 main.contacto {
-  background: url(/images/bread-bottom.jpg) no-repeat center/cover;
+  background: url(images/bread-bottom.jpg) no-repeat center/cover;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -76,7 +76,7 @@ main.contacto {
 }
 
 main.acerca {
-  background: url(/images/bread-bottom.jpg) no-repeat center/cover;
+  background: url(images/bread-bottom.jpg) no-repeat center/cover;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -292,6 +292,19 @@ form.contacto .input_group input,
 form.contacto .input_group textarea,
 form.contacto .input_group select {
   resize: none;
+  border-radius: 5px;
+}
+
+form.contacto .input_group button {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: #9c6d4b;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
 form.contacto .input_group textarea {
@@ -655,6 +668,10 @@ section.local img {
     max-width: 100%;
     height: 400px;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .subir {
