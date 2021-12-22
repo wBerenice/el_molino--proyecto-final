@@ -323,7 +323,7 @@ footer address {
 
 footer .footer_logo {
   text-align: center;
-  font-size: clamp(1.2rem, 2.2vw, 2rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
   padding: 0.5rem;
   font-weight: bold;
 }
@@ -341,7 +341,7 @@ footer .redes_horarios {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: clamp(0.8rem, 1.5vw, 1.8rem);
+  font-size: clamp(0.7rem, 1.2vw, 1.5rem);
   padding-bottom: 1rem;
 }
 
@@ -450,6 +450,12 @@ nav .menu > li:hover .submenu {
   display: flex;
 }
 
+nav a:hover {
+  -webkit-text-decoration: 1px underline white;
+          text-decoration: 1px underline white;
+  text-underline-offset: 5px;
+}
+
 @media (max-width: 550px) {
   header {
     all: unset;
@@ -474,6 +480,7 @@ nav .menu > li:hover .submenu {
   header img.logo3 {
     all: unset;
     width: 50px;
+    height: 50px;
   }
   header .logo span {
     font-size: 2.5rem;
@@ -496,7 +503,7 @@ nav .menu > li:hover .submenu {
     right: 0;
     z-index: 1;
     height: 100vh;
-    width: 42%;
+    width: 70%;
     background-color: #F2954B;
     border-radius: .5rem;
     display: none;
@@ -525,7 +532,7 @@ nav .menu > li:hover .submenu {
     font-weight: bold;
     opacity: 1;
   }
-  header nav .menu li:hover {
+  header nav .menu li a:hover {
     -webkit-text-decoration: 1px underline white;
             text-decoration: 1px underline white;
     text-underline-offset: 5px;
