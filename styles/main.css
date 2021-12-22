@@ -190,10 +190,6 @@ section.acerca .acerca_txt {
   margin-top: .25rem;
 }
 
-.card_image {
-  width: 450px;
-}
-
 .card_main p {
   text-align: center;
   max-width: 300px;
