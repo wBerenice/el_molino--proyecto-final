@@ -590,6 +590,13 @@ nav a:hover {
   width: 100%;
 }
 
+@media (max-width: 550px) {
+  .hero {
+    position: relative;
+    height: calc(100vh - 115px);
+  }
+}
+
 section.local {
   background: white;
   display: -webkit-box;
