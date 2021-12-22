@@ -60,7 +60,7 @@ h3 {
 }
 
 main.local {
-  background: url(images/bread-bottom.jpg) no-repeat center/cover;
+  background: url(/images/bread-bottom.jpg) no-repeat center/cover;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -68,7 +68,7 @@ main.local {
 }
 
 main.contacto {
-  background: url(images/bread-bottom.jpg) no-repeat center/cover;
+  background: url(/images/bread-bottom.jpg) no-repeat center/cover;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -76,7 +76,7 @@ main.contacto {
 }
 
 main.acerca {
-  background: url(images/bread-bottom.jpg) no-repeat center/cover;
+  background: url(/images/bread-bottom.jpg) no-repeat center/cover;
   display: -ms-grid;
   display: grid;
   place-content: center;
