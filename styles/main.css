@@ -112,8 +112,7 @@ section.acerca .acerca_txt {
           flex-grow: 1;
   -ms-flex-preferred-size: 400px;
       flex-basis: 400px;
-  padding: 2rem;
-  text-align: justify;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -131,9 +130,7 @@ section.acerca .acerca_txt {
         -ms-flex-pack: center;
             justify-content: center;
     border-radius: 1rem;
-  }
-  section.acerca .acerca-txt {
-    max-width: 640px;
+    text-align: justify;
   }
 }
 
